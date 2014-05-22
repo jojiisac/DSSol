@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="101e3e00-0320-4b08-bfd9-9971f1d3cf7c" name="NK68@VDI01T8AHSC013 2014-05-22 06:37:47" runUser="DOTCOM\NK68" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="8c86e222-b007-4fd4-b4f1-ac144964c7df">
+    <Deployment runDeploymentRoot="NK68_VDI01T8AHSC013 2014-05-22 06_37_47">
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\DSWeb\bin\DSWeb.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="D:\TechBites\CI\Src\DSSol\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-22T06:37:47.6227722+01:00" queuing="2014-05-22T06:37:52.6207722+01:00" start="2014-05-22T06:37:52.9057722+01:00" finish="2014-05-22T06:37:54.2497722+01:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="VDI01T8AHSC013" outcome="Warning" timestamp="2014-05-22T06:37:52.5537722+01:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Org.Mentalis.Security.Cryptography' directly or indirectly referenced by the test container 'd:\techbites\ci\src\dssol\dsweb.tests\bin\debug\dsweb.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="About" storage="d:\techbites\ci\src\dssol\dsweb.tests\bin\debug\dsweb.tests.dll" id="67e6030d-aef9-baaa-a9c3-e956e082d525">
+      <Execution id="2fb3bb80-a72c-4855-a6ab-1352834248ba" />
+      <TestMethod codeBase="D:/TechBites/CI/Src/DSSol/DSWeb.Tests/bin/Debug/DSWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DSWeb.Tests.Controllers.HomeControllerTest, DSWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Index" storage="d:\techbites\ci\src\dssol\dsweb.tests\bin\debug\dsweb.tests.dll" id="cb065536-e019-2081-6954-e42c4057cc6a">
+      <Execution id="33f8bfb0-46c2-4fdd-bf13-cb888ee7b1e3" />
+      <TestMethod codeBase="D:/TechBites/CI/Src/DSSol/DSWeb.Tests/bin/Debug/DSWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DSWeb.Tests.Controllers.HomeControllerTest, DSWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="Contact" storage="d:\techbites\ci\src\dssol\dsweb.tests\bin\debug\dsweb.tests.dll" id="3ad915c7-6c1e-d738-dd96-7612a3adea3b">
+      <Execution id="f567a13d-a70d-44c0-96df-850760794eb6" />
+      <TestMethod codeBase="D:/TechBites/CI/Src/DSSol/DSWeb.Tests/bin/Debug/DSWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DSWeb.Tests.Controllers.HomeControllerTest, DSWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3ad915c7-6c1e-d738-dd96-7612a3adea3b" executionId="f567a13d-a70d-44c0-96df-850760794eb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67e6030d-aef9-baaa-a9c3-e956e082d525" executionId="2fb3bb80-a72c-4855-a6ab-1352834248ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb065536-e019-2081-6954-e42c4057cc6a" executionId="33f8bfb0-46c2-4fdd-bf13-cb888ee7b1e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f567a13d-a70d-44c0-96df-850760794eb6" testId="3ad915c7-6c1e-d738-dd96-7612a3adea3b" testName="Contact" computerName="VDI01T8AHSC013" duration="00:00:00.3084877" startTime="2014-05-22T06:37:53.1597722+01:00" endTime="2014-05-22T06:37:54.0937722+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f567a13d-a70d-44c0-96df-850760794eb6">
+    </UnitTestResult>
+    <UnitTestResult executionId="2fb3bb80-a72c-4855-a6ab-1352834248ba" testId="67e6030d-aef9-baaa-a9c3-e956e082d525" testName="About" computerName="VDI01T8AHSC013" duration="00:00:00.0030427" startTime="2014-05-22T06:37:54.1077722+01:00" endTime="2014-05-22T06:37:54.1187722+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fb3bb80-a72c-4855-a6ab-1352834248ba">
+    </UnitTestResult>
+    <UnitTestResult executionId="33f8bfb0-46c2-4fdd-bf13-cb888ee7b1e3" testId="cb065536-e019-2081-6954-e42c4057cc6a" testName="Index" computerName="VDI01T8AHSC013" duration="00:00:00.0566214" startTime="2014-05-22T06:37:54.1207722+01:00" endTime="2014-05-22T06:37:54.1837722+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33f8bfb0-46c2-4fdd-bf13-cb888ee7b1e3">
+    </UnitTestResult>
+  </Results>
+</TestRun>
