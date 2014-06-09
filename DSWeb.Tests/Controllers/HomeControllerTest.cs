@@ -24,6 +24,8 @@ namespace DSWeb.Tests.Controllers
 
             // Assert
             Assert.AreEqual("Modify this template to jump-start your ASP.NET MVC application.", result.ViewBag.Message);
+
+
         }
 
         [TestMethod]
