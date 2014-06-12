@@ -25,8 +25,8 @@ namespace DSWeb.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
-            return View();
+	// Added for Testing
+            return View("");
         }
     }
 }
